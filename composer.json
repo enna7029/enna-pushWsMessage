@@ -1,0 +1,20 @@
+{
+    "name": "enna/enna-push",
+    "description": "Use Workman to listen and send WebSocket information",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Enna\\EnnaPush\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "王龙",
+            "email": "w1069103107@outlook.com"
+        }
+    ],
+    "require": {
+        "workerman/workerman": "^4.1"
+    }
+}
