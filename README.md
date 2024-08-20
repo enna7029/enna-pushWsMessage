@@ -15,7 +15,7 @@ Use Workman to listen and send WebSocket information
 php push.php start -d
 ```
 2.前端发起websocket链接并监听消息,执行以下代码或者执行websocket.html
-```angular2html
+```html
 var ws = new WebSocket('ws://127.0.0.1:1234');
 ws.onopen = function(){
     var uid = 'uid1';
